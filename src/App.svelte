@@ -131,7 +131,7 @@ Format percakapan:
 (jawabanmu)
 `;
 
-const userPrompt = `[Aron]: ${text}\n[Liora]:`;
+const userPrompt = `[Aron]: ${text}\n Liora:`;
 
 const out = await aiGenerate(sys, userPrompt);
 

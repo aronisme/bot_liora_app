@@ -8,6 +8,7 @@ Susun laporan ke format poin berikut:
 - Masalah:
 - Tugas:
 - Progres:
+- Pengingat: agenda (tanggal hari ini)   
 - Catatan lain:
 
 Catatan penting:
@@ -34,6 +35,7 @@ Format WAJIB sama:
 - Masalah:
 - Tugas:
 - Progres:
+- Pengingat: agenda (tanggal hari ini) 
 - Catatan lain:
 
 Aturan:
