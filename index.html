@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liora Report AI — Smart Detect</title>
+    <style>
+      :root{--bg:#0b1020;--fg:#e5e7eb;--muted:#9aa0aa;--card:#11172a;--accent:#60a5fa;}
+      html,body,#app{height:100%} body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,Segoe UI,Roboto,Inter,sans-serif}
+      .row{display:flex;height:100%}
+      .left{flex:1;display:flex;flex-direction:column}
+      .right{width:440px;border-left:1px solid #1f2847;background:#0f152b;display:flex;flex-direction:column}
+      .topbar{display:flex;gap:8px;align-items:center;padding:12px;border-bottom:1px solid #1f2847;background:#0f152b}
+      .messages{flex:1;overflow:auto;padding:16px;display:flex;flex-direction:column;gap:10px}
+      .msg{background:var(--card);padding:12px;border:1px solid #1f2847;border-radius:12px;max-width:900px}
+      .msg.assistant{border-left:3px solid var(--accent)}
+      .composer{display:flex;gap:8px;padding:12px;border-top:1px solid #1f2847;background:#0f152b}
+      button,input,textarea,select{background:#0f152b;color:var(--fg);border:1px solid #273253;border-radius:10px;padding:10px}
+      button.primary{background:var(--accent);color:#0b1020;border:none}
+      .panel{padding:12px;flex:1;overflow:auto}
+      .small{font-size:12px;color:var(--muted)}
+      .pill{display:inline-flex;gap:8px;align-items:center;border:1px solid #33406b;padding:6px 10px;border-radius:999px;font-size:12px;color:var(--muted)}
+      pre{white-space:pre-wrap;word-wrap:break-word}
+      .grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
